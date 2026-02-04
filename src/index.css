@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.dark-theme{
+    background-color: black;
+    color: rgba(128, 128, 128, 0.904);
+
+}
+.light-theme{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.795);
+}
+
+
+/* @import "tailwindcss"; */
+
+@import "tailwindcss";
+
+.animate-profile {
+ animation: profile 12s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+
+}
+
+@keyframes profile {
+  0%   { border-radius: 50%; }
+  15%  { border-radius: 38% 62% 55% 45%; }
+  30%  { border-radius: 60% 40% 30% 70%; }
+  45%  { border-radius: 42% 58% 65% 35%; }
+  60%  { border-radius: 70% 30% 50% 50%; }
+  75%  { border-radius: 35% 65% 40% 60%; }
+  90%  { border-radius: 55% 45% 60% 40%; }
+  100% { border-radius: 50%; }
+}
+
+
+
