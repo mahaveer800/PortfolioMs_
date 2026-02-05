@@ -2,7 +2,7 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div className="flex flex-col justify-center items-center gap-16 px-4">
+    <div id="skills" className="flex flex-col justify-center items-center gap-16 px-4">
       {/* heading */}
       <section className="flex flex-col justify-center items-center">
         <p className="flex gap-10  text-2xl font-semibold">Skills</p>

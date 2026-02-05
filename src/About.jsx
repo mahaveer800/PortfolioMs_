@@ -5,7 +5,7 @@ import resume from "./assets/true-CV.pdf"
 
 const About = () => {
   return (
-    <div className="flex flex-col justify-center items-center px-4 py-10">
+    <div id="about" className="flex flex-col justify-center items-center px-4 py-10">
 
       {/* Heading */}
       <div className="flex flex-col items-center gap-1 mb-10">
@@ -56,7 +56,7 @@ const About = () => {
           </div>
 
           {/* Text */}
-          <p className="text-center md:text-left text-sm  text-gray-500 md:text-base">
+          <p className="text-center md:text-left   md:text-base">
             Hi, I’m Mahaveer Singh — a Software Developer with 1 year of
             experience in building modern web applications using React and
             Next.js. I focus on creating fast, clean, and user-friendly

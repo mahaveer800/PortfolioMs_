@@ -26,7 +26,7 @@ const cardVariants = {
 
 const Project = () => {
   return (
-    <div className="min-h-screen px-6 py-10" id="Project">
+    <div id="project" className="min-h-screen px-6 py-10" >
       <div className="flex items-center justify-center">
        <p className="text-2xl flex items-center gap-2">
   <i className="fa-solid fa-diagram-project"></i>
@@ -69,7 +69,7 @@ const Project = () => {
                 href={project.live}
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center gap-2 text-sm font-medium text-purple-600 hover:underline"
+                className="inline-flex items-center gap-2 text-sm font-medium text-gray-600 hover:underline"
               >
                 Live Demo <span>→</span>
               </a>
