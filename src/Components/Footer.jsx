@@ -86,7 +86,7 @@ const Footer = () => {
 
         {/* socials */}
         <div>
-          <ul className="flex flex-col gap-8 md:gap-6 text-xl cursor-pointer">
+          <ul className="flex flex-col gap-4 md:gap-8 sm:gap-4 cursor-pointer">
             <li>
               <a href="https://www.linkedin.com/in/mahaveer-singh-29a359363/" target="_blank" rel="noreferrer">
                 <i className="fa-brands fa-linkedin"></i>
