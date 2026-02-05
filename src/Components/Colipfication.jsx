@@ -81,7 +81,7 @@ const Collification = () => {
                   {/* dot */}
                   <span className="absolute left-0 top-4 w-3 h-3 bg-gray-600 rounded-full"></span>
 
-                  <div className="ml-4 bg-white dark:bg-gray-500 rounded-xl shadow-md px-4 py-3">
+                  <div className="ml-4  dark:bg-gray-300 rounded-xl shadow-md px-4 py-3">
                     <Card item={item} align="left" />
                   </div>
 
