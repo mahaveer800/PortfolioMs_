@@ -120,7 +120,7 @@ const Footer = () => {
             className="
               w-[140px] h-[40px]
               sm:w-[200px] sm:h-[50px]
-              bg-gray-900 rounded-sm text-sm sm:text-base md:text-gray-400
+              bg-gray-900 rounded-sm text-sm text-white sm:text-base sm:text-gray-300 md:text-gray-400
             "
           >
             Up <i className="fa-solid fa-arrow-up"></i>
