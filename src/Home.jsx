@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "./assets/mpassport.png";
+import profile from "./assets/Portfolio.jpeg";
 import { motion } from "framer-motion";
 
 const iconVariants = {
