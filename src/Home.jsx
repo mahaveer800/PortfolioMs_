@@ -68,7 +68,7 @@ const Home = () => {
         <img
           src={profile}
           alt="profile"
-          className="w-[220px] h-[220px] object-cover animate-profile"
+          className="w-[220px] h-[220px] object-cover animate-profile rotate-y-180"
         />
       </div>
 
