@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "./assets/portfolio.jpeg";
+import profile from "./assets/portfolio.png";
 import resume from "./assets/true-CV.pdf"
 
 

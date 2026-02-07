@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "./assets/Portfolio.jpeg";
+import profile from "./assets/Portfolio.png";
 import { motion } from "framer-motion";
 
 const iconVariants = {
@@ -129,7 +129,7 @@ const Home = () => {
         <img
           src={profile}
           alt="profile"
-          className="w-[300px] h-[300px] object-cover animate-profile"
+          className="w-[300px] h-[300px] object-cover animate-profile rotate-y-180"
         />
       </div>
 
