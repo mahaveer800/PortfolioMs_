@@ -6,7 +6,7 @@ const Skills = () => {
       {/* heading */}
       <section className="flex flex-col justify-center items-center">
         <p className="flex gap-10  text-2xl font-semibold">Skills</p>
-        <p className="text-gray-500">My technical level</p>
+        <p className="">My technical level</p>
       </section>
 
       {/* cards */}
@@ -14,7 +14,7 @@ const Skills = () => {
         {/* Frontend */}
         <div
           className="w-full md:w-[40%] min-h-[260px] border border-b-gray-800 rounded-md
-                     flex flex-col items-center justify-center gap-3 text-center p-6"
+                     flex flex-col items-center justify-center gap-3 text-center p-6 outline-none"
         >
             <p className="text-2xl">   <i className="fa-solid fa-code mr-2"></i>
             Frontend Skills</p>

@@ -6,7 +6,7 @@ import Footer from "./Components/Footer";
 import Home from "./Home";
 import About from "./About";
 import Skills from "./Components/Skills";
-import Collification from "./Components/Colipfication";
+import Qualification from "./Components/Qualification";
 import Project from "./Components/Project";
 import Contact from "./Components/Contact";
 
@@ -16,7 +16,7 @@ const HomePage = () => {
       <Home />
       <About />
       <Skills />
-      <Collification />
+      <Qualification />
       <Project />
       <Contact />
     </>
@@ -34,7 +34,7 @@ const App = () => {
 
           <Route path="/about" element={<About />} />
           <Route path="/skills" element={<Skills />} />
-          <Route path="/education" element={<Collification />} />
+          <Route path="/education" element={<Qualification />} />
           <Route path="/project" element={<Project />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

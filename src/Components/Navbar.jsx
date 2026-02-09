@@ -48,10 +48,23 @@ const Navbar = () => {
   };
 
   const NavItem = ({ id, label, route }) => (
-    <li
-      className="cursor-pointer hover:text-amber-500"
-      onClick={() => setIsOpen(false)}
-    >
+<li
+  onClick={() => setIsOpen(false)}
+  className="
+    relative cursor-pointer px-2 py-1
+    
+    transition-colors duration-300
+    hover:text-yellow-500
+    after:content-['']
+    after:absolute after:left-0 after:-bottom-1
+    after:h-[2px] after:w-full
+    after:origin-left
+    after:scale-x-0
+    after:bg-gray-900 dark:after:bg-white
+    after:transition-transform after:duration-500 after:ease-out
+    hover:after:scale-x-100
+  "
+>
       {isHome ? (
         <ScrollLink to={id} {...scrollProps}>
           {label}
@@ -76,7 +89,7 @@ const Navbar = () => {
             : "bg-transparent"
         }`}
       >
-        <p className="text-[18px] font-bold">Mahaveersingh</p>
+        <p className="text-[18px] font-semibold font-bold">Mahaveersingh</p>
 
         {/* ---------------- Desktop menu ---------------- */}
         <ul className="hidden md:flex gap-12">

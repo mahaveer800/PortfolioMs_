@@ -76,12 +76,12 @@ const Collification = () => {
                 <div className="relative pl-6">
 
                   {/* left line */}
-                  <span className="absolute left-1 top-0 h-full w-[2px] bg-gray-500"></span>
+                  <span className="absolute left-1 top-0 h-full w-[2px] "></span>
 
                   {/* dot */}
-                  <span className="absolute left-0 top-4 w-3 h-3 bg-gray-600 rounded-full"></span>
+                  <span className="absolute left-0 top-4 w-3 h-3  rounded-full"></span>
 
-                  <div className="ml-4  dark:bg-gray-300 rounded-xl shadow-md px-4 py-3">
+                  <div className="ml-4   rounded-xl shadow-md px-4 py-3">
                     <Card item={item} align="left" />
                   </div>
 
@@ -107,16 +107,16 @@ const Card = ({ item, align }) => {
 
   return (
     <div className={`flex flex-col gap-1 ${textAlign}`}>
-      <p className="font-semibold text-gray-800 dark:text-white">
-        {item.title}
-      </p>
+     <p className="font-semibold text-gray-500 ">
+  {item.title}
+</p>
 
-      <p className="text-sm text-gray-600 dark:text-gray-400">
+      <p className="text-sm ">
         {item.place}
       </p>
 
       <p
-        className={`text-sm flex items-center gap-2 mt-1 ${justifyAlign} text-gray-600 dark:text-gray-400`}
+        className={`text-sm flex items-center gap-2 mt-1 ${justifyAlign} `}
       >
         <i className="fa-regular fa-calendar"></i>
         {item.date}
